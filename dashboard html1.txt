@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍴 My Favorite Recipes</h1>
+
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="dashboard.html">Dashboard</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Dashboard</h2>
+    <p>Your recipe collection at a glance.</p>
+</section>
+
+<div class="recipes">
+
+    <div class="card">
+        <div class="content">
+            <h2>Total Recipes</h2>
+            <h1 id="recipeCount"></h1>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="content">
+            <h2>Favorite Recipes</h2>
+            <h1 id="favoriteCount">0</h1>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="content">
+            <h2>Newest Recipe</h2>
+            <p>Chocolate Chip Cookies</p>
+        </div>
+    </div>
+
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
